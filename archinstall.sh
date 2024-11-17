@@ -1,49 +1,9 @@
-# Check if package is installed
-_isInstalledPacman() {
-    package="$1";
-    check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")";
-    if [ -n "${check}" ] ; then
-        echo 0; #'0' means 'true' in Bash
-        return; #true
-    fi;
-    echo 1; #'1' means 'false' in Bash
-    return; #false
-}
+#!/bin/bash
 
-# Install required packages
-_installPackagesPacman() {
-    toInstall=();
-    for pkg; do
-        if [[ $(_isInstalledPacman "${pkg}") == 0 ]]; then
-            echo "${pkg} is already installed.";
-            continue;
-        fi;
-        toInstall+=("${pkg}");
-    done;
-    if [[ "${toInstall[@]}" == "" ]] ; then
-        # echo "All pacman packages are already installed.";
-        return;
-    fi;
-    printf "Package not installed:\n%s\n" "${toInstall[@]}";
-    sudo pacman --noconfirm -S "${toInstall[@]}";
-}
+# Update package lists
+paru
 
-# Required packages for the installer
-packages=(
-    "wget"
-    "unzip"
-    "gum"
-    "rsync"
-    "git"
-)
-
-# Synchronizing package databases
-sudo pacman -Sy
-echo
-
-# Install required packages
-echo ":: Checking that required packages are installed..."
-_installPackagesPacman "${packages[@]}";
-echo
+# Install packages
+paru -S --needed base-devel bluez bluez-utils brave-bin brightnessctl fastfetch foot gnome-themes-extra grim gvfs hyprland hyprpolkitagent-git hyprshade ibus-avro-git lib32-nvidia-utils lib32-opencl-nvidia libreoffice-fresh mpv ntfs-3g nwg-look p7zip papirus-icon-theme slurp steam swayimg thunar thunar-archive-plugin thunar-volman tumbler wl-clipboard wofi xarchiver
 
 echo ":: Installation of Packages complete"
