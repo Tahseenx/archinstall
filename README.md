@@ -20,7 +20,8 @@ NixOS who??
 <br/>Important Notes:
 <br/>
 <br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply install `linux-cachyos-bore-nvidia-open` `nvidia-utils` `lib32-nvidia-utils` `nvidia-settings` and uncomment the NVIDIA env vars in `~/.config/hypr/hyprland.conf`.
+<br/>
 <br/>Yes, `nvidia-open` because Nvdia stopped working on `nvidia-dkms` we are on our own bois~
 <br/>
-<br/>You may also want to tinker a little bit with `~/.config/hypr/hyprland.conf` since not everything that I added there will work for you. You need to change a lil bit here and there. Get your ass to work, surprise surprise you are using linux\
+<br/>You may also want to tinker a little bit with `~/.config/hypr/hyprland.conf` since not everything that I added there will work for you. You need to change a lil bit here and there. Get your ass to work, surprise surprise you are using linux\\
 <br/>Going through the `hyprland.conf` will help you to get accustomed to the graphical system more and you will be able to customize it to your heart's content in no time.
