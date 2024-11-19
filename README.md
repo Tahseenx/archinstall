@@ -19,7 +19,7 @@ NixOS who??
 <br/>
 <br/>
 <br/>Important Notes:
-<br/>
+<br/>----------------
 <br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply copy paste the following command in the terminal, and then follow along https://wiki.hyprland.org/Nvidia.
 ##
         paru -S --needed linux-cachyos-bore-nvidia-open nvidia-utils lib32-nvidia-utils nvidia-settings
