@@ -3,7 +3,7 @@ NixOS who??
 <br/>Archlinux supremacy only. No need NixOS for nothing\\
 <br/>All my homies hate NixOS\\
 <br/>
-<br/>Basic `Archlinux (CachyOS repos & BORE kernel) + Hyprland` install focusing on minimalism and low resources consumption. <br/>Max your work hours in style.
+<br/>Basic `Archlinux (CachyOS repos & BORE kernel) + Hyprland` install focusing on minimalism and low (we are talking about really loW) resource consumption. <br/>Max your work hours in style.
 <br/>
 <br/>Installation for noobs:
 <br/>(simply copy paste the following line in your blank tty after minimal archinstall)
