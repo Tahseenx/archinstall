@@ -10,6 +10,7 @@ paru -S --needed base-devel bluez bluez-utils brave-bin brightnessctl fastfetch 
 cp .bashrc .vimrc /home/monon/
 
 # Copy Hyprland config
+mkdir -p ~/.config/hypr
 cp hyprland.conf ~/.config/hypr/
 
 # Fastfetch config
