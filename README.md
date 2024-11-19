@@ -17,12 +17,12 @@ NixOS who??
 <br/>Death to NixOS users\\
 <br/>
 <br/>
+<br/>
 <br/>Important Notes:
 <br/>
-<br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply do this:
+<br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply copy paste the following command in the terminal, and then follow along https://wiki.hyprland.org/Nvidia.
 ##
         paru -S --needed linux-cachyos-bore-nvidia-open nvidia-utils lib32-nvidia-utils nvidia-settings
-Then follow along https://wiki.hyprland.org/Nvidia
 <br/>
 <br/>Yes, `nvidia-open` because Nvdia stopped working on `nvidia-dkms` we are on our own bois~
 <br/>
