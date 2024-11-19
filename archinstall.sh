@@ -19,7 +19,7 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin breeze-gtk brightnessctl cpupower dosfstools fastfetch foot grim gvfs hyprland hyprpolkitagent-git hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mkinitcpio-firmware mpv ntfs-3g nwg-look p7zip slurp swayimg thunar thunar-archive-plugin thunar-volman tlp tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin breeze-gtk brightnessctl cpupower dosfstools fastfetch foot grim gvfs hyprland hyprpolkitagent-git hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mkinitcpio-firmware mpv ntfs-3g nwg-look p7zip slurp swayimg thunar thunar-archive-plugin thunar-volman tlp tumbler wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc /home/monon/
@@ -40,8 +40,15 @@ cp foot.ini ~/.config/foot/
 mkdir -p ~/.config/swayimg
 cp config ~/.config/swayimg/
 
+# Cpupower config
+sudo cp cpupower /etc/default/
+
 # Add BL Hyprshade shader
 sudo cp bl.glsl /usr/share/hyprshade/shaders/
+
+# Enable necessary services
+sudo systemctl enable tlp
+sudo systemctl enable cpupower
 
 echo "  
      v
