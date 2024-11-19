@@ -1,5 +1,5 @@
 NixOS who??
-Archlinux supremacy only. No need NixOS for nothing\\
+\nArchlinux supremacy only. No need NixOS for nothing\\
 All my homies hate NixOS\\
 
 Basic archinstall + hyprland install focusing on battery powersave. Max your work hours in style.
