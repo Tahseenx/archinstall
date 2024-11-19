@@ -50,10 +50,4 @@ sudo cp bl.glsl /usr/share/hyprshade/shaders/
 sudo systemctl enable tlp
 sudo systemctl enable cpupower
 
-echo "  
-     v
-     v  v  v  v  v  v  v  v  v  v  v  v  
-  => Installation of Packages complete! <=
-     ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^
-     ^
-     "
+reboot
