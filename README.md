@@ -31,6 +31,7 @@ Yes, `nvidia-open` because a certain indie gpu designing company stopped working
 <br/>
 <br/>
 <br/>Changing your installed kernel to `CachyOS BORE` kernel:
+<br/>-------------------------------------------------------------------------
 <br/>You gotta do it manually. It's easy tho
 <br/>I'm gonna walk you through it step by step
 <br/>
