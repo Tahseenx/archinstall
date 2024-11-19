@@ -24,4 +24,5 @@ NixOS who??
 <br/>Yes, `nvidia-open` because Nvdia stopped working on `nvidia-dkms` we are on our own bois~
 <br/>
 <br/>You may also want to tinker a little bit with `~/.config/hypr/hyprland.conf` since not everything that I added there will work for you. You need to change a lil bit here and there. Get your ass to work, surprise surprise you are using linux\\
+<br/>
 <br/>Going through the `hyprland.conf` will help you to get accustomed to the graphical system more and you will be able to customize it to your heart's content in no time.
