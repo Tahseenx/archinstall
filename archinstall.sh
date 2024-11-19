@@ -43,7 +43,7 @@ cp config ~/.config/swayimg/
 # Cpupower config
 sudo cp cpupower /etc/default/
 
-# Add BL Hyprshade shader
+# Add Hyprshade blue light filter shader
 sudo cp bl.glsl /usr/share/hyprshade/shaders/
 
 # Enable necessary services
