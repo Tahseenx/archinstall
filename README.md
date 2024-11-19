@@ -4,7 +4,7 @@ NixOS who??
 <br/>All my homies hate NixOS\\
 <br/>
 <br/>Basic `Archlinux (CachyOS repos & BORE kernel) + Hyprland` install focusing on minimalism and low (we are talking about reallyy loww) resource consumption. <br/>Max your work hours in style~
-<br/>Surely youll get to squeeze your battery like a lemon and get couple of more hours from it~
+<br/>Surely you'll get to squeeze your battery like a lemon and get couple of more hours from it~
 <br/>
 <br/>Installation for noobs:
 <br/>(simply copy paste the following line in your blank tty after minimal archinstall)
@@ -19,7 +19,7 @@ NixOS who??
 <br/>
 <br/>Important Notes:
 <br/>
-<br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply install `linux-cachyos-bore-nvidia-open` `nvidia-utils` `lib32-nvidia-utils` `nvidia-settings` and uncomment the NVIDIA env vars in `~/.comfig/hypr/hyprland.conf`.
+<br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply install `linux-cachyos-bore-nvidia-open` `nvidia-utils` `lib32-nvidia-utils` `nvidia-settings` and uncomment the NVIDIA env vars in `~/.config/hypr/hyprland.conf`.
 <br/>Yes, `nvidia-open` because Nvdia stopped working on `nvidia-dkms` we are on our own bois~
 <br/>
 <br/>You may also want to tinker a little bit with `~/.config/hypr/hyprland.conf` since not everything that I added there will work for you. You need to change a lil bit here and there. Get your ass to work, surprise surprise you are using linux\
