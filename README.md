@@ -23,7 +23,7 @@ NixOS who??
 <br/>Didn't include any gpu packages, install what you need. If you use Nvidia simply copy paste the following command in the terminal, and then follow along https://wiki.hyprland.org/Nvidia.
 ##
         paru -S --needed linux-cachyos-bore-nvidia-open nvidia-utils lib32-nvidia-utils nvidia-settings
-Yes, `nvidia-open` because Nvdia stopped working on `nvidia-dkms` we are on our own bois~
+Yes, `nvidia-open` because a certain indie gpu designing company stopped working on `nvidia-dkms` we are on our own bois~
 <br/>
 <br/>You may also want to tinker a little bit with `~/.config/hypr/hyprland.conf` since not everything that I added there will work for you. You need to change a lil bit here and there. Get your ass to work, surprise surprise you are using linux\\
 <br/>
