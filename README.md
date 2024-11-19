@@ -1,4 +1,5 @@
 NixOS who??
+<br/>
 <br/>Archlinux supremacy only. No need NixOS for nothing\\
 <br/>All my homies hate NixOS\\
 <br/>
