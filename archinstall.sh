@@ -4,7 +4,7 @@
 sudo cp pacman.conf /etc/
 
 # Paru install
-cd..
+cd ..
 sudo git clone https://aur.archlinux.org/paru.git
 sudo chown $USER:$USER paru/
 cd paru/
