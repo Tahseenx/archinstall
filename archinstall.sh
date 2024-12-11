@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update pacman.conf
-sudo cp pacman.conf /etc/
+# sudo cp pacman.conf /etc/
 
 # Paru install
 cd ..
@@ -45,6 +45,9 @@ sudo cp cpupower /etc/default/
 
 # Add Hyprshade blue light filter shader
 sudo cp bl.glsl /usr/share/hyprshade/shaders/
+
+# Add msfonts
+cp -r .fonts /home/monon/
 
 # Enable necessary services
 sudo systemctl enable tlp
