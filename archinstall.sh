@@ -19,7 +19,7 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin breeze-gtk brightnessctl cpupower dosfstools fastfetch foot grim gvfs hyprland hyprpolkitagent-git hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mkinitcpio-firmware mpv nwg-look p7zip slurp swayimg thunar thunar-archive-plugin thunar-volman tlp tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin breeze-gtk brightnessctl dosfstools fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers linux-cachyos-bore-nvidia-open mkinitcpio-firmware mpv nwg-look p7zip slurp swayimg thunar thunar-archive-plugin thunar-volman tumbler vim wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc /home/monon/
@@ -27,6 +27,7 @@ cp .bashrc .vimrc /home/monon/
 # Copy Hyprland config
 mkdir -p ~/.config/hypr
 cp hyprland.conf ~/.config/hypr/
+cp hyprshade.toml ~/.config/hypr/
 
 # Fastfetch config
 mkdir -p ~/.config/fastfetch
@@ -41,17 +42,17 @@ mkdir -p ~/.config/swayimg
 cp config ~/.config/swayimg/
 
 # Cpupower config
-sudo cp cpupower /etc/default/
+# sudo cp cpupower /etc/default/
 
 # Add Hyprshade blue light filter shader
-sudo cp bl.glsl /usr/share/hyprshade/shaders/
+# sudo cp bl.glsl /usr/share/hyprshade/shaders/
 
 # Add Microsoft default fonts
 cp -r .fonts /home/monon/
 
 # Enable necessary services
-sudo systemctl enable tlp
-sudo systemctl enable cpupower
+# sudo systemctl enable tlp
+# sudo systemctl enable cpupower
 
 # Reboot the machine
 reboot
