@@ -6,6 +6,5 @@
 
 <br/>
 <br/>4. CS2 launch options
-```
-gamemoderun +exec autoexec.cfg -nojoy -high +r_drawparticles 0 -d3d9ex -novid -no-browser +mat_queue_mode 2 +fps_max 0 +cl_interp_ratio 1 +cl_interp 0.031 -tickrate 128 +cl_cmdrate 128 +cl_updaterate 128 +cl_forcepreload 1 -vulkan
-```
+##
+    gamemoderun +exec autoexec.cfg -nojoy -high +r_drawparticles 0 -d3d9ex -novid -no-browser +mat_queue_mode 2 +fps_max 0 +cl_interp_ratio 1 +cl_interp 0.031 -tickrate 128 +cl_cmdrate 128 +cl_updaterate 128 +cl_forcepreload 1 -vulkan
