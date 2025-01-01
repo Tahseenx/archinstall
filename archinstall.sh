@@ -47,6 +47,9 @@ cp config ~/.config/swayimg/
 # Add Hyprshade blue light filter shader
 # sudo cp bl.glsl /usr/share/hyprshade/shaders/
 
+# Auto Hyprshade on/off
+sudo systemctl --user enable --now hyprshade.timer
+
 # Add Microsoft default fonts
 cp -r .fonts /home/monon/
 
