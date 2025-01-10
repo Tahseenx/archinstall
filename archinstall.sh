@@ -19,7 +19,7 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin breeze-gtk brightnessctl fastfetch foot gamemode lib32-gamemode grim gvfs htop hyprland hyprpolkitagent hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers linux-cachyos-bore-nvidia-open nvidia-utils lib32-nvidia-utils mkinitcpio-firmware mpv networkmanager nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin thunar-volman tumbler vim wine-staging wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin breeze-gtk brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh mpv networkmanager nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc /home/monon/
