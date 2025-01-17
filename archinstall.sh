@@ -45,7 +45,7 @@ cp config ~/.config/swayimg/
 # sudo cp cpupower /etc/default/
 
 # Add Hyprshade blue light filter shader
-# sudo cp bl.glsl /usr/share/hyprshade/shaders/
+sudo cp /usr/share/hyprshade/shaders/blue-light-filter.glsl /usr/share/hyprshade/shaders/bl.glsl
 
 # Auto Hyprshade on/off
 # sudo systemctl --user enable --now hyprshade.timer
