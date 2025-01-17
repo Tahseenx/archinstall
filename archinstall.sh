@@ -19,10 +19,10 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin breeze-gtk brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh mpv networkmanager nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh mpv nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
-cp .bashrc .vimrc /home/monon/
+cp .bashrc .vimrc ~/
 
 # Copy Hyprland config
 mkdir -p ~/.config/hypr
@@ -48,7 +48,7 @@ cp config ~/.config/swayimg/
 # sudo cp bl.glsl /usr/share/hyprshade/shaders/
 
 # Auto Hyprshade on/off
-sudo systemctl --user enable --now hyprshade.timer
+# sudo systemctl --user enable --now hyprshade.timer
 
 # Add Microsoft default fonts
 cp -r .fonts /home/monon/
