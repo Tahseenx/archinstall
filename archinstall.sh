@@ -19,7 +19,7 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh mpv nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mpv nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc ~/
