@@ -19,7 +19,7 @@ cd ..
 cd archinstall/
 
 # Install packages
-paru -S --needed base-devel brave-bin brightnessctl fastfetch foot grim gvfs hyprland hyprpolkitagent hyprshade libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mpv nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel brave-bin brightnessctl fastfetch foot grim gvfs hyprland hyprsunset libreoffice-fresh linux-cachyos-bore linux-cachyos-bore-headers mpv nwg-look p7zip qbittorrent slurp steam swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc ~/
@@ -45,7 +45,7 @@ cp config ~/.config/swayimg/
 # sudo cp cpupower /etc/default/
 
 # Add Hyprshade blue light filter shader
-sudo cp /usr/share/hyprshade/shaders/blue-light-filter.glsl /usr/share/hyprshade/shaders/bl.glsl
+# sudo cp /usr/share/hyprshade/shaders/blue-light-filter.glsl /usr/share/hyprshade/shaders/bl.glsl
 
 # Auto Hyprshade on/off
 # sudo systemctl --user enable --now hyprshade.timer
