@@ -9,4 +9,4 @@
 <br/>
 <br/>4. make an EFI stub entry using efibootmgr:
 ##
-        efibootmgr -c -d /dev/nvme0n1 -p 1 -L "Voidlinux" -l /vmlinuz-linux -u 'root=UUID=XXXXXroot-partition-uuidXXXXXX rw initrd=\initramfs-linux.img'
+        sudo efibootmgr -c -d /dev/nvme0n1 -p 1 -L "Voidlinux" -l /vmlinuz-linux -u 'root=UUID=XXXXXroot-partition-uuidXXXXXX rw initrd=\initramfs-linux.img'
