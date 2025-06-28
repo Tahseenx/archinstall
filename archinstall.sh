@@ -10,14 +10,12 @@ sudo chown $USER:$USER paru/
 cd paru/
 makepkg -si
 
-# Add CachyOS repository
-mkdir -p ~/Downloads
-cd ~/Downloads
-
+#Add CachyOS Repository
+cd
 curl https://mirror.cachyos.org/cachyos-repo.tar.xz -o cachyos-repo.tar.xz
 tar xvf cachyos-repo.tar.xz && cd cachyos-repo
 sudo ./cachyos-repo.sh
-cd /opt/archinstall/
+cd ~/archinstall
 
 # Install packages
 paru -S --needed base-devel brave-bin breeze-gtk brightnessctl fastfetch foot grim gvfs htop hyprland hyprsunset libreoffice-fresh mkinitcpio-firmware mpv nwg-look qbittorrent slurp swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
