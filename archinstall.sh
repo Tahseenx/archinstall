@@ -17,8 +17,12 @@ tar xvf cachyos-repo.tar.xz && cd cachyos-repo
 sudo ./cachyos-repo.sh
 cd ~/archinstall
 
+# Wine GE Custom
+paru -S wine-ge-custom
+paru -S --needed --asdeps 7zip breeze-gtk brightnessctl gvfs mkinitcpio-firmware thunar-archive-plugin tumbler wofi giflib lib32-nvidia-utils lib32-giflib nwg-look gnutls lib32-gnutls v4l-utils lib32-v4l-utils libpulse lib32-libpulse alsa-plugins wl-clipboard lib32-alsa-plugins alsa-lib lib32-alsa-lib sqlite lib32-sqlite libxcomposite lib32-libxcomposite ocl-icd lib32-ocl-icd libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader sdl2 lib32-sdl2
+
 # Install packages
-paru -S --needed base-devel brave-bin breeze-gtk brightnessctl fastfetch foot grim gvfs htop hyprland hyprsunset libreoffice-fresh mkinitcpio-firmware mpv nwg-look qbittorrent slurp swayimg thunar thunar-archive-plugin tumbler vim wl-clipboard wofi xarchiver
+paru -S --needed base-devel fastfetch foot hyprshot hyprland hyprsunset mpv thunar xdg-desktop-portal-hyprland linux-cachyos-bore linux-cachyos-bore-headers linux-cachyos-bore-nvidia-open
 
 # Bashrc and Vimrc
 cp .bashrc .vimrc ~/
@@ -35,19 +39,8 @@ cp config.jsonc ~/.config/fastfetch/
 mkdir ~/.config/foot
 cp foot.ini ~/.config/foot/
 
-# Swayimg config
-mkdir ~/.config/swayimg
-cp config ~/.config/swayimg/
-
-# Cpupower config
-# sudo cp cpupower /etc/default/
-
 # Add Microsoft default fonts
 cp -r .fonts ~/
-
-# Enable necessary services
-# sudo systemctl enable tlp
-# sudo systemctl enable cpupower
 
 # Reboot the machine
 reboot
