@@ -8,7 +8,7 @@ sudo ./cachyos-repo.sh
 cd
 
 # Install Packages
-paru -S --needed 7zip brightnessctl dosfstools fastfetch foot git hyprland hyprshot hyprsunset linux-cachyos-bore linux-cachyos-bore-headers linux-cachyos-bore-nvidia-open mkinitcpio-firmware ungoogled-chromium-bin vim wofi
+paru -S --needed 7zip brightnessctl dosfstools fastfetch foot git hyprland hyprshot hyprsunset linux-cachyos-bore linux-cachyos-bore-headers linux-cachyos-bore-nvidia-open mkinitcpio-firmware firefox thunar thunar-archive-plugin gvfs tumbler mpv vim xarchiver wofi
 
 # Install Wine
 paru -S wine-ge-custom
@@ -20,15 +20,15 @@ cd ~/archinstall
 cp .bashrc .vimrc ~/
 
 # Fastfetch config
-mkdir ~/.config/fastfetch
+mkdir -p ~/.config/fastfetch
 cp config.jsonc ~/.config/fastfetch/
 
 # Foot config
-mkdir ~/.config/foot
+mkdir -p ~/.config/foot
 cp foot.ini ~/.config/foot/
 
 # GTK settings.ini
-mkdir ~/.config/gtk-3.0
+mkdir -p ~/.config/gtk-3.0
 cp settings.ini ~/.config/gtk-3.0
 
 # Add Microsoft default fonts
