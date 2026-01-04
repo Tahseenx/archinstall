@@ -8,7 +8,7 @@
 #cd
 
 # Install Packages
-paru -S --needed brightnessctl fastfetch foot hyprland hyprsunset mpv vim wofi
+paru -S --needed brave-bin brightnessctl fastfetch foot hyprland hyprsunset mpv vim xdg-desktop-portal-hyprland wofi
 
 # Wine dependencies
 #paru -S --needed --asdeps giflib lib32-giflib gnutls lib32-gnutls v4l-utils lib32-v4l-utils libpulse lib32-libpulse alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib sqlite lib32-sqlite libxcomposite lib32-libxcomposite ocl-icd lib32-ocl-icd libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader sdl2 lib32-sdl2
@@ -33,7 +33,7 @@ cp settings.ini ~/.config/gtk-3.0/
 cp settings.ini ~/.config/gtk-4.0/
 
 # Add Microsoft default fonts
-cp -r .fonts ~/
+#cp -r .fonts ~/
 
 # Reboot the machine
 reboot
