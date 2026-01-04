@@ -27,7 +27,10 @@
 		"key": "Battery",
 		"type": "battery"
 	},
-        "datetime",
+	{
+		"key": "Date",
+        "type": "datetime",
+		"format": "weekday, day-in-month month-name-short year"
         "break",
         "colors"
     ]
