@@ -30,7 +30,7 @@
 	{
 		"key": "Date",
         "type": "datetime",
-		"format": "weekday, day-in-month month-name-short year"
+		"format": "weekday, day-pretty month-name-short year"
         "break",
         "colors"
     ]
