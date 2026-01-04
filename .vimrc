@@ -126,10 +126,10 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-try
-    colorscheme elflord
-catch
-endtry
+"try
+"    colorscheme elflord
+"catch
+"endtry
 
 set background=dark
 
