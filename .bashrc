@@ -4,7 +4,7 @@
 
 # hyprland login without login manager
 if [ "$(tty)" = "/dev/tty1" ] ; then
-    exec Hyprland &>/dev/null
+    exec start-hyprland &>/dev/null
 fi
 
 # fastfetch, a better neofetch
