@@ -32,6 +32,7 @@ mkdir -p ~/.config/gtk-4.0
 cp settings.ini ~/.config/gtk-3.0/
 cp settings.ini ~/.config/gtk-4.0/
 
+# Bijoy keyboard (kinda)
 sudo cp my_bd /usr/share/X11/xkb/symbols/
 
 # Add Microsoft default fonts
