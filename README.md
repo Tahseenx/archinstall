@@ -7,8 +7,4 @@
 <br/>
 <br/>3. Add `nowatchdog` (and `intel_pstate=passive` if using cpu power) in the `options` line in `/boot/loader/entries/linux-cachyos-bore.conf`. Additionally `nowatchdog` `quiet` `loglevel=3` `systemd.show_status=auto` `rd.udev.log_level=3` `modprobe.blacklist=iTCO_wdt`
 <br/>
-<br/> 4. Dont forget to change 4<=>6 in my_bd
-<br/>
-<br/>5. make an EFI stub entry using efibootmgr:
-##
-        sudo efibootmgr -c -d /dev/nvme0n1 -p 1 -L "Voidlinux" -l /vmlinuz-linux -u 'root=UUID=XXXXXroot-partition-uuidXXXXXX rw initrd=\initramfs-linux.img'
+<br/> 4. Dont forget to change 4<=>6 in my_bd /usr/share/X11/xkb/symbols/
