@@ -32,6 +32,8 @@ mkdir -p ~/.config/gtk-4.0
 cp settings.ini ~/.config/gtk-3.0/
 cp settings.ini ~/.config/gtk-4.0/
 
+sudo cp my_bd /usr/share/X11/xkb/symbol/
+
 # Add Microsoft default fonts
 #cp -r .fonts ~/
 
