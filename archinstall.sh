@@ -36,7 +36,7 @@ cp settings.ini ~/.config/gtk-4.0/
 sudo cp my_bd /usr/share/X11/xkb/symbols/
 
 # Add Microsoft default fonts
-#cp -r .fonts ~/
+cp -r .fonts ~/
 
 # Reboot the machine
 reboot
