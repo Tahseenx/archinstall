@@ -35,6 +35,10 @@ cp settings.ini ~/.config/gtk-4.0/
 # Bijoy keyboard (kinda)
 sudo cp my_bd /usr/share/X11/xkb/symbols/
 
+# Chromium as media meister
+sudo cp x /usr/local/bin/
+sudo chmod +x /usr/local/bin/x
+
 # Add Microsoft default fonts
 cp -r .fonts ~/
 
