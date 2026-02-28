@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Paru install
-cd /opt
+cd /opt/
 sudo git clone https://aur.archlinux.org/paru.git
-sudo chown -R monon:monon paru/
+sudo chown -R $USER:$USER paru/
 cd paru
 makepkg -si
 
